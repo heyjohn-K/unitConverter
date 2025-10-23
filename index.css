@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #1c2533;
+}
+.main{
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+h2{
+  color: white;
+  font-weight: 900;
+  font-size: 25px;
+  font-family: "Inter", sans-serif;
+}
+.heading-section{
+  background-color: #6943ff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  gap: 30px;
+}
+#input-section{
+  background-color: #6943ff;
+  border: 2px solid white;
+  width: 40%;
+  height: 80px;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+.input-section:focus,
+.input-section:active {
+  border: 2px solid white; /* Keep the border color consistent */
+  outline: none; /* Remove the default focus outline */
+}
+#btn{
+  background-color: white;
+  border: none;
+  color: #353536;
+  padding: 15px 40px;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+.content-section{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: "Inter", sans-serif;
+  align-items: center;
+  text-align: center;
+  background-color: #2e4058;
+  margin: 0;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+h3{
+  color: thistle;
+}
+.length-section, .volume-section, .mass-section{
+  background-color: #232f3d;
+  width: 80%;
+  padding: 15px;
+  margin-top: 20px;
+}
